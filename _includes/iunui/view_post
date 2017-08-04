@@ -1,16 +1,13 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-8" id="main">
-<div class="row">
+
+<div class="clearfix bg-warning">
 {% include navp %}
 </div>
-		<div class="row">
-			<div id="entry" class="img-thumbnail">
-			<h3>{{page.title}}</h3>
-<p>{% if (page.author) %}<i class="glyphicon glyphicon-user"></i><span><a href="{{site.baseurl}}/{{page.author}}">{{page.author}}</a> </span>{% endif %}<i class="glyphicon glyphicon-time"></i>{{page.date|time_tag}}</p>
+		<div class="img-thumbnail">
+			<p class="h3">{{page.title}}</p>
 	{{content}}
-<!--{% include comment %}-->
-			</div>
 		</div>
 			</div>
 			<div class="col-md-4" id="side">
@@ -27,7 +24,6 @@
 {% include postintag num='12' %}
 					</div>
 				</div>
-{% include sitetags %}
           </div>
 			</div>
 
