@@ -1,25 +1,19 @@
 <footer class="container-fluid">
 	<div class="row bg-warning text-white">
 	<div class="col-md-4">
-<p>Thông tin</p>
-<p>Liên hệ</p>
-<p>Khác</p>
-	</div>
-	<div class="col-md-4">
 <div class="img-thumbnail bg-warning">
-	<img src="{{site.asseturl}}/maps.jpg" class="img-fluid rounded" alt=""/>
+Thong tin<br>lien he<br>hotline<br>them
 </div>
 	</div>
 	<div class="col-md-4">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10&appId=354088824979622";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-page" data-href="https://www.facebook.com/roboxala/" data-hide-cover="false" data-show-facepile="false"></div>
+<div class="img-thumbnail bg-warning">
+Thong tin<br>lien he<br>hotline<br>them
+</div>
+	</div>
+	<div class="col-md-4">
+<div class="img-thumbnail bg-warning">
+Thong tin<br>lien he<br>hotline<br>them
+</div>
 	</div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -16,7 +16,7 @@
 {% assign date = cdate %}
 {% endif %}
 {% include {{site.skin}}/view_grid %}
-{% if forloop.last %}</div>{% endif %}
+{% if forloop.last %}</div></div>{% endif %}
 
 {% endif %}
 {% endfor %}

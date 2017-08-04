@@ -1,14 +1,11 @@
-<div class="clearfix"></div>
-	<footer>
-		<div class="col-xs-6 col-md-4">
-		binhbat - copy right 2017
-		</div>
-		<div class="col-xs-6 col-md-8">	
-			<div class="row">
-
-			</div>
-		</div>
-	</footer>
+<footer class="container-fluid">
+	<div class="row bg-warning text-white">
+	<div class="col-md-4">
+<div class="img-thumbnail bg-warning">
+Thong tin<br>lien he<br>hotline<br>them
+</div>
+	</div>
+</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="{{site.asseturl}}/bootstrap/v4/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>

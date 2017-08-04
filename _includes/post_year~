@@ -1,1 +1,8 @@
-{% for post in site.posts limit:include.num %}{% assign cdate = post.date | date: "%Y" %}{% if cdate != date %}{% unless forloop.first %}</ul>{% endunless %}<ul class=""><a href="{{site.baseurl}}/archive">{{cdate}}</a>{% assign date = cdate %}{% endif %}<li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>{% if forloop.last %}</ul>{% endif %}{% endfor %}
+{% for post in site.posts limit:include.num %}
+{% assign cdate = post.date | date: "%Y" %}{% if cdate != date %}
+{% unless forloop.first %}</ul>{% endunless %}
+<ul><a href="{{site.baseurl}}/archive">{{cdate}}</a>
+{% assign date = cdate %}{% endif %}
+<li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+{% if forloop.last %}</ul>{% endif %}
+{% endfor %}
