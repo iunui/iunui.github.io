@@ -9,7 +9,6 @@
 			<h3>{{page.title}}</h3>
 <p>{% if (page.author) %}<i class="glyphicon glyphicon-user"></i><span><a href="{{site.baseurl}}/{{page.author}}">{{page.author}}</a> </span>{% endif %}<i class="glyphicon glyphicon-time"></i>{{page.date|time_tag}}</p>
 	{{content}}
-{% include {{site.skin}}/728x90 %}
 <!--{% include comment %}-->
 			</div>
 		</div>
@@ -18,7 +17,6 @@
 				<div class="row">
 				<div class="col-6">
 					<div class="row">
-{% include {{site.skin}}/200x200 %}
 {% include postincat num='12' %}
 {% include postbytag key='ghim' num='12' %}
 					</div>
@@ -27,11 +25,9 @@
 				<div class="col-6">
 					<div class="row">
 {% include postintag num='12' %}
-{% include {{site.skin}}/180x150 %}
 					</div>
 				</div>
 {% include sitetags %}
-{% include {{site.skin}}/336x280 %}
           </div>
 			</div>
 
