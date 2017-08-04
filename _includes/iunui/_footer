@@ -1,0 +1,31 @@
+<footer class="container-fluid">
+	<div class="row bg-warning text-white">
+	<div class="col-sm-6 col-lg-3">
+		<script src="navlist.js"></script>
+	</div>
+	<div class="col-sm-6 col-md-3">
+<div class="row">
+<div class="img-thumbnail bg-warning">
+	<img src="https://placehold.it/640x360" class="img-fluid rounded" alt=""/>
+</div>	
+</div>
+</div>
+	<div class="col-sm-6 col-lg-3">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10&appId=354088824979622";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-page" data-href="https://www.facebook.com/roboxala/" data-hide-cover="false" data-show-facepile="false"></div>
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<script src="navlist.js"></script>
+	</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="{{site.asseturl}}/bootstrap/v4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+</body>
