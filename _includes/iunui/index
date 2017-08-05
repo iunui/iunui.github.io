@@ -2,7 +2,7 @@
 		<div class="row">
 			<div class="col-sm-6 col-md-8" id="main">
 <div class="row">
-{% include carousel name='nature' %}
+{% include carousel key='assets/items' url='items' %}
 </div>
 			</div>
 			<div class="col-sm-6 col-md-4" id="side">
@@ -40,7 +40,8 @@
 		  {% include {{site.skin}}/view_grid %}
 		{% endfor %}
 </div>
-<center>
+
+<div class="d-flex justify-content-center">
 {% include pagi %}
-</center>
+</div>
 	</div>

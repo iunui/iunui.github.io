@@ -4,4 +4,4 @@ title: Bài Albums
 author: admin
 tags: [ghim]
 ---
-{% include album name='nature' %}
+{% include album key='assets/nature' %}
