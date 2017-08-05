@@ -11,7 +11,7 @@
 {% assign index = 1 %}
     {% for image in site.static_files %}{% if image.path contains include.key %}
       <div class="carousel-item {% if index == 1 %}active{% endif %}">
-        <img class="d-block img-fluid" src="{{site.url}}{{site.baseurl}}{{image.path}}" alt="{{index}}{{image.basename}}"/>
+        <img src="{{site.url}}{{site.baseurl}}{{image.path}}" alt="{{index}}{{image.basename}}" class="d-block img-fluid"/>
 {% if (include.url) %}
 <span class="carousel-caption d-none d-md-block">
 {% assign tmp = {{image.path|split:'.'|first}} %}
