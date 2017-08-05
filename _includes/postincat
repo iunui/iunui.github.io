@@ -1,1 +1,9 @@
-{% if (page.categories) %}{% for cat in page.categories %}{% for post in site.categories[cat] limit:include.num %}{% include {{site.skin}}/view_list %}{% endfor %}{% endfor %}{% endif %}
+{% if (page.categories) %}
+{% for cat in page.categories %}
+{% for post in site.categories[cat] limit:include.num %}
+{% if page.id != post.id %}
+{% include {{site.skin}}/view_list %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endif %}
