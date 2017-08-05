@@ -1,20 +1,11 @@
-<footer class="container-fluid">
-	<div class="row bg-warning text-white">
-	<div class="col-md-4">
-<div class="img-thumbnail bg-warning">
+<footer class="container-fluid bg-warning text-white">
+<div class="col-12 img-thumbnail bg-warning">
 Thong tin<br>lien he<br>hotline<br>them
 </div>
+	<div class="row">
+
 	</div>
-	<div class="col-md-4">
-<div class="img-thumbnail bg-warning">
-Thong tin<br>lien he<br>hotline<br>them
-</div>
-	</div>
-	<div class="col-md-4">
-<div class="img-thumbnail bg-warning">
-Thong tin<br>lien he<br>hotline<br>them
-</div>
-	</div>
+	<span>copy right 2017 - binhbat</span>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="{{site.asseturl}}/bootstrap/v4/js/bootstrap.min.js"></script>
