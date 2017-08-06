@@ -14,17 +14,18 @@
 			<div class="row">
 {% include carousel key='assets/items' url='items' %}
 			</div>
-				<div class="row hidden-sm-down">
+				<div class="row">
 				<div class="col-6">
-					<div class="row">
-<ul class="list-group">
+<ul class="row list-group">
 {% include postincat num='12' %}
 </ul>
-					</div>
 				</div>
 
 				<div class="col-6">
-					<div class="row">
+<ul class="row list-group">
+{% include postintag %}
+</ul>
+					<div class="row hidden-sm-down">
 {% include {{site.skin}}/160x600 %}
 					</div>
 				</div>

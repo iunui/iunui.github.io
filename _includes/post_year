@@ -1,8 +1,10 @@
-<ul class="list-unstyled">
+<ul class="row list-group">
 {% for post in site.posts limit:include.num %}
-{% assign cdate = post.date | date: "%Y" %}{% if cdate != date %}
+{% assign cdate = post.date | date: "%Y" %}
+{% if cdate != date %}
 {% unless forloop.first %}</ul>{% endunless %}
-{% assign date = cdate %}{% endif %}
-<li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+{% assign date = cdate %}
+{% endif %}
+	{% include {{site.skin}}/view_li %}
 {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
