@@ -1,7 +1,7 @@
+<ul class="list-unstyled">
 {% for post in site.posts limit:include.num %}
 {% assign cdate = post.date | date: "%Y" %}{% if cdate != date %}
 {% unless forloop.first %}</ul>{% endunless %}
-<ul>
 {% assign date = cdate %}{% endif %}
 <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
 {% if forloop.last %}</ul>{% endif %}

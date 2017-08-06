@@ -1,10 +1,18 @@
-			<div class="row">
-{% include carousel name='nature' %}
-					<div class="col-6">
-						<div class="row">
-{% include postbytag key='ghim' num='10' %}
-						</div>
-					</div>
-					<div class="col-6">
-					</div>
-    			</div>
+<div class="row">
+{% include carousel key='nature' %}
+	<div class="col-6">
+		<div class="row">
+{% include {{site.skin}}/200x200 %}
+{% include postintag num='6' view='list' %}
+		</div>
+	</div>
+	<div class="col-6">
+		<div class="row">
+{% include post_year num='24' %}
+		</div>
+<div class="row">
+{% include {{site.skin}}/180x150 %}
+</div>
+	</div>
+{% include {{site.skin}}/336x280 %}
+</div>

@@ -1,26 +1,29 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-8" id="main">
-<div class="clearfix bg-warning">
 {% include navp %}
-</div>
 		<div class="img-thumbnail">
 			<p class="h3">{{page.title}}</p>
 	{{content}}
 		</div>
+<div class="row">
+{% include postintag num='6' %}
+</div>
 			</div>
 			<div class="col-md-4" id="side">
 				<div class="row">
 {% include carousel key='assets/items' url='items' %}
 				<div class="col-6">
 					<div class="row">
+{% include {{site.skin}}/300x300 %}
+<span>{{site.lang.postincat}} 12</span>
 {% include postincat num='12' %}
 					</div>
 				</div>
 
 				<div class="col-6">
 					<div class="row">
-{% include postintag num='6' %}
+{% include {{site.skin}}/160x600 %}
 					</div>
 				</div>
           </div>
