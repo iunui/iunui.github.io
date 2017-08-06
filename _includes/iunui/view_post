@@ -7,17 +7,19 @@
 	{{content}}
 		</div>
 <div class="row">
-{% include postintag num='6' %}
+{% include postintag view='grid' %}
 </div>
 			</div>
 			<div class="col-md-4" id="side">
-				<div class="row">
+			<div class="row">
 {% include carousel key='assets/items' url='items' %}
+			</div>
+				<div class="row hidden-sm-down">
 				<div class="col-6">
 					<div class="row">
-{% include {{site.skin}}/300x300 %}
-<span>{{site.lang.postincat}} 12</span>
+<ul class="list-group">
 {% include postincat num='12' %}
+</ul>
 					</div>
 				</div>
 

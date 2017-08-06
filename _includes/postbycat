@@ -1,5 +1,5 @@
 <ul class="list-unstyled">
 {% for post in site.categories[include.key] limit:include.num %}
-<li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+	{% include {{site.skin}}/view_li %}
 {% endfor %}
 </ul>
