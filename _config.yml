@@ -1,7 +1,7 @@
 # Site settings
 baseurl: "" # /gh-pages
 asseturl: "/assets"
-skin: "iunui"
+skin: "minifi"
 
 # langsite
 lang:
@@ -15,7 +15,7 @@ lang:
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
-paginate: 14
+paginate: 12
 paginate_path: /page:num
 
 gems: [jekyll-paginate]

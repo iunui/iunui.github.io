@@ -1,5 +1,5 @@
+{% include carousel key='assets/itemsslider' url='items' %}
 <div class="row">
-{% include carousel key='nature' %}
 	<div class="col-6">
 <ul class="row list-group">
 {% include postintag %}

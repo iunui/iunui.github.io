@@ -14,11 +14,14 @@
 	<style>
 		img{display:block;margin:0 auto;max-width:75%;}
 		.navcat{display:inline-block;max-height:64px;}
+		.thumbfix>img{max-height:200px;overflow:hidden;object-fit:contain;}
+		.pagination{margin-bottom:0;}
+		.carousel-item-next,.carousel-item-prev,.carousel-item.active{display:block !important;}
 	</style>
 </head>
 <body>
 <header class="clearfix bg-warning">
-	<a href="{{site.url}}{{site.baseurl}}"><img src="{{site.asseturl}}/logo.png" alt="{{site.lang.brandname}}" class="navcat"/></a>
+	<a href="{{site.url}}{{site.baseurl}}/"><img src="{{site.asseturl}}/logo.png" alt="{{site.lang.brandname}}" class="navcat"/></a>
 	<div class="float-right">
 	{% include navc %}
 	</div>
