@@ -1,13 +1,13 @@
 # Site settings
 baseurl: "" # /gh-pages
 asseturl: "/assets"
-skin: "minifi"
+skin: "iunui"
 
 # langsite
 lang:
  brandname: "iunui"
  read_more: ">>"
- showpostby: "Danh mục: "
+ showpostby: "danh mục: "
  postincat: "cùng mục"
  postintag: "cùng thẻ"
  ghim: "nổi bật"
