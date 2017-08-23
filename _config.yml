@@ -1,12 +1,13 @@
 # Site settings
 baseurl: "" # /gh-pages
 asseturl: "/assets"
-skin: "iunui"
+skin: "bs4"
 
 # langsite
 lang:
- brandname: "iunui"
+ brandname: "IUNUI"
  read_more: ">>"
+ view: "XEM"
  showpostby: "danh mục: "
  postincat: "cùng mục"
  postintag: "cùng thẻ"
@@ -15,7 +16,9 @@ lang:
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
-paginate: 12
+paginate: 6
 paginate_path: /page:num
 
-gems: [jekyll-paginate]
+plugins:
+ - jekyll-feed
+ - jekyll-paginate

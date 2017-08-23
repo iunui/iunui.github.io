@@ -1,0 +1,25 @@
+<div id="slider-{{a}}" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner" role="listbox">
+<ol class="carousel-indicators">
+{% assign cnt=0 %}
+{% for post in site.posts limit:10 %}
+{% if post.author contains a %}
+<li data-target="#slider-{{a}}" data-slide-to="{{cnt}}"{% if cnt==0 %} class="active"{% endif %}></li>
+{% assign cnt=cnt|plus:1 %}
+{% endif %}
+{% endfor %}
+</ol>
+{% assign num=0 %}
+{% for post in site.posts limit:10 %}
+{% if post.author contains a %}
+<div class="carousel-item item{% if num==0 %} active{% endif %}">
+	{% include imgthumb %}
+	<div class="carousel-caption"><a href="{{site.baseurl}}{{post.url}}" class="btn btn-success btn-outline-success">{{site.lang.view}}</a></div>
+</div>
+{% assign num=num|plus:1 %}
+{% endif %}
+{% endfor %}
+</div>
+<a class="carousel-control-prev left carousel-control" href="#slider-{{a}}" role="button" data-slide="prev"><span class="carousel-control-prev-icon glyphicon glyphicon-chevron-left"></span></a>
+<a class="carousel-control-next right carousel-control" href="#slider-{{a}}" role="button" data-slide="next"><span class="carousel-control-next-icon glyphicon glyphicon-chevron-right"></span></a>
+</div>
