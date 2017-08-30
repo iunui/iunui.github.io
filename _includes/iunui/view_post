@@ -16,7 +16,7 @@
 				<div class="row">{% include postintag %}</div>
 </div>
 <div class="col-sm-6">
-				<div class="row">{% include post_year %}</div>
+				<div class="row">{% include postbycat key='news' %}</div>
 </div>
 {% include sitetags %}
 </div>

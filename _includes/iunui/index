@@ -1,6 +1,6 @@
 
 			<div class="col-sm-6 col-md-8" id="main">
-<div class="row">{% include carousel key='assets/slider-home' %}</div>
+<div class="row">{% include carousel key='assets/items' url='items' %}</div>
 			</div>
 			<div class="col-sm-6 col-md-4" id="side">
 				<div class="row">
