@@ -14,7 +14,7 @@
 <style>
 header{border-bottom:5px #5cb85c solid}
 footer{background:#964B00;}
-img{display:block;margin:0 auto;max-width:75%;}
+img{display:block;margin:0 auto;max-width:90%;}
 .pagination{margin-bottom:0;}
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {display: block !important;}
 .carousel-caption {top: 0;bottom: auto;}
