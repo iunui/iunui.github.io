@@ -10,7 +10,7 @@
 	</div>
 			<div class="col-md-4" id="side">
 <div class="row">
-{% include slider key='assets/items' url='items' %} %}
+{% include slider key='assets/items' url='items' %}
 <div class="col-sm-6">
 				<div class="row">{% include postintag %}</div>
 </div>
